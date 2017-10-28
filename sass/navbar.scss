@@ -1,7 +1,18 @@
 $font-stack: Helvetica, sans-serif;
-$primary-color: #123ABC;
+$bg-color: #123ABC;
+$font-color: red;
+$nav-color: #2f2;
 
 body {
   font: 100% $font-stack;
-  background-color: $primary-color;
+  background-color: $bg-color;
+}
+
+nav {
+  height: 1.5em;
+  background-color: $nav-color;
+}
+
+nav > a {
+  color: $font-color;
 }
