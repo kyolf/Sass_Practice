@@ -1,18 +1,15 @@
 $font-stack: Helvetica, sans-serif;
-$bg-color: #123ABC;
-$font-color: red;
+$bg-color: #324245;
+$font-color: white;
 $nav-color: #2f2;
 
-body {
-  font: 100% $font-stack;
-  background-color: $bg-color;
-}
+@import 'body';
 
 nav {
   height: 1.5em;
   background-color: $nav-color;
-}
-
-nav > a {
-  color: $font-color;
+  
+  a{
+    color: $font-color;
+  }
 }
