@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 2em;
+  background-color: $nav-color;
+  margin: 0px;
+  
+  a{
+    color: $font-color;
+  }
+}
