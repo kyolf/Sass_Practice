@@ -5,9 +5,11 @@ body {
 nav {
   display: flex;
   justify-content: flex-end;
-  height: 2em;
+  height: 3em;
   background-color: #143A45;
   margin: 0px; }
+  nav p {
+    margin: 10px 10px 10px; }
   nav a {
     color: #b9efff; }
 
