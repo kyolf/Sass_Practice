@@ -12,4 +12,8 @@ nav {
   a{
     color: $font-color;
   }
+
+  a:hover{
+    color: $hover-color;
+  }
 }

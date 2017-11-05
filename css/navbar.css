@@ -12,5 +12,7 @@ nav {
     margin: 10px 10px 10px; }
   nav a {
     color: #b9efff; }
+  nav a:hover {
+    color: #fff; }
 
 /*# sourceMappingURL=navbar.css.map */
