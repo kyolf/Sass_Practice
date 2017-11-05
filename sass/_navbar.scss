@@ -6,9 +6,13 @@ nav {
   margin: 0px;
   
   p{
-    margin: 10px 5px + 5px 10px;
+    margin: 10px;
   }
   
+  p:last-child{
+    margin-right: 30px !important;
+  }
+
   a{
     color: $font-color;
   }
